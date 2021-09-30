@@ -1,0 +1,46 @@
+.contact-list {
+    background-color:;
+    height:80vh;
+    width: 100%;
+}
+.contact-list h4 {
+    text-align: center;
+    padding-top: 20px;
+    text-shadow: 0 0 15px rgb(73, 134, 224);
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+table {
+    width: 80%;
+}
+
+table, th, td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+    table-layout:fixed;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    height: 30px;
+}
+tr:nth-child(odd) { 
+    background-color:rgba(0,0,0,0.2) ; 
+}
+td {
+    font-size: 14px;
+}
+th {
+    height: 40px;
+}
+
+@media screen and (max-width: 700px) {
+    table {
+        width: 96%;
+    }
+    th {
+        font-size: 14px;
+    }
+    td {
+        font-size: 12px;
+    }
+
+}
